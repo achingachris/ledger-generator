@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className={styles.footer}>
           <p>
-             Chris Made It on {year} | hosted on <img src='/vercel.svg' alt='Vercel Logo' className={styles.logo} />
+             Chris Made It Copyright {year} | deployed on <img src='/vercel.svg' alt='Vercel Logo' className={styles.logo} />
           </p>
         
       </footer>
