@@ -1,9 +1,14 @@
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 const Header = () => {
   return (
     <>
-      <h1 className={styles.title}>Ledger Generator</h1>
+      <Link href='/'>
+        <a>
+          <h1 className={styles.title}>Ledger Generator</h1>
+        </a>
+      </Link>
       <p className={styles.description}>Accounting like a Pro</p>
     </>
   )
