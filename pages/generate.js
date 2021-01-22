@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 // components
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Form from '../components/Form'
 
 const generate = () => {
   return (
@@ -14,6 +15,7 @@ const generate = () => {
       </Head>
       <main className={styles.main}>
         <Header />
+        <Form />
       </main>
       <Footer />
     </div>
